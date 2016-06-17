@@ -1,0 +1,35 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeOrderActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/snobs"/>
+
+    <ImageView
+        android:id="@+id/titleIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleIcon"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="enterShop"/>
+
+</RelativeLayout>
+
